@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Helium Chrome",
+    "short_name": "helium_chrome",
+    "description": "",
+    "version": "0.0.1",
+    "icons": {
+        "16": "assets/icon_16.png",
+        "128": "assets/icon_128.png"
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
